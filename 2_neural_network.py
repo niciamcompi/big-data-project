@@ -11,7 +11,7 @@ spark = SparkSession.builder\
 
 
 #import Dataframe
-dataset=spark.read.parquet('/Users/nicolaroth/Downloads/ne3.parquet')
+dataset=spark.read.parquet('/ne3.parquet')
 
 #Jahr berechnen
 from pyspark.sql.functions import month, year
